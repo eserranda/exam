@@ -1,6 +1,6 @@
 myArray = [1, 20, 89, 54, 70, -4, 3];
 
-function palindrom(myArray) {
+function reverse(myArray) {
   let result = [];
   j = myArray.length - 1;
 
@@ -13,5 +13,5 @@ function palindrom(myArray) {
   return result;
 }
 
-let mydata = palindrom(myArray);
+let mydata = reverse(myArray);
 console.log(mydata);
